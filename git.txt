@@ -1,0 +1,6 @@
+Sao chép kho truy cập từ xa（git@github.com:framgia/proj.git） vào local
+git clone git@github.com:framgia/proj.git
+Chỉ staging foo.txt
+git add foo.txt
+Khi đang ở nhánh work1, rebase nhánh work1 theo HEAD của nhánh develop
+git rebase develop
