@@ -4,3 +4,11 @@ Chỉ staging foo.txt
 git add foo.txt
 Khi đang ở nhánh work1, rebase nhánh work1 theo HEAD của nhánh develop
 git rebase develop
+Xem sự khác biệt giữa nhánh đang làm viêc và stage
+git diff HEAD
+Nội dung của nhánh làm việc trở về HEAD
+git reset --hard
+Sửa commit
+git commit --amend
+Hiển thị trợ giúp
+git help
